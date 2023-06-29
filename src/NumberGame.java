@@ -19,6 +19,13 @@ public class NumberGame {
             if (randomNumber > guess) {
                 System.out.println("It's greater than " + guess + "guess.");
             }
+            if (randomNumber == guess) {
+                hasWon = true;
+                break;
+            }
         }
+     if (hasWon) {
+         System.out.println("CORRECT... YOU WIN!!!");
+     }
     }
 }
