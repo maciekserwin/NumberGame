@@ -5,5 +5,9 @@ public class NumberGame {
         int randomNumber = (int) (Math.random() * 100) +1;
         System.out.println("I have randomly chosen a number between 1 and 100.");
         System.out.println("Try to guess it.");
+
+        for (int i = 10; i>0; i--) {
+            System.out.println("You have " + i + "guess(es) left. Choose again: ");
+        }
     }
 }
