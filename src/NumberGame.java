@@ -16,6 +16,9 @@ public class NumberGame {
             if (randomNumber < guess) {
                 System.out.println("It's smaller than " + guess + "guess.");
             }
+            if (randomNumber > guess) {
+                System.out.println("It's greater than " + guess + "guess.");
+            }
         }
     }
 }
