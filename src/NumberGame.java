@@ -6,6 +6,7 @@ public class NumberGame {
         System.out.println("I have randomly chosen a number between 1 and 100.");
         System.out.println("Try to guess it.");
 
+        Scanner scanner = new Scanner(System.in);
         for (int i = 10; i>0; i--) {
             System.out.println("You have " + i + "guess(es) left. Choose again: ");
         }
