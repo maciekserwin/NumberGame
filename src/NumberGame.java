@@ -14,10 +14,10 @@ public class NumberGame {
             int guess = scanner.nextInt();
 
             if (randomNumber < guess) {
-                System.out.println("It's smaller than " + guess + "guess.");
+                System.out.println("It's smaller than " + guess + ".");
             }
             if (randomNumber > guess) {
-                System.out.println("It's greater than " + guess + "guess.");
+                System.out.println("It's greater than " + guess + ".");
             }
             if (randomNumber == guess) {
                 hasWon = true;
