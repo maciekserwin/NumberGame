@@ -8,7 +8,9 @@ public class NumberGame {
 
         Scanner scanner = new Scanner(System.in);
         for (int i = 10; i>0; i--) {
-            System.out.println("You have " + i + "guess(es) left. Choose again: ");
+            System.out.println("You have " + i + " guess(es) left. Choose again: ");
+            int guess = scanner.nextInt();
+            System.out.println("Your guess was: " +guess);
         }
     }
 }
